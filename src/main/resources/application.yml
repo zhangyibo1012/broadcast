@@ -32,6 +32,11 @@ logging:
   jackson:
     default-property-inclusion: non_null
 
+hbase:
+  zk:
+    host: hix-virtual-machine
+    port: 2181
+
 
 
 
